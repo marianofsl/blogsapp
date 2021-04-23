@@ -26,7 +26,7 @@ const CommentList: FC<CommentListProps> = ({ comments }) => {
     });
 
     return <ul>
-        {renderedComments}
+        {renderedComments} 
     </ul>
 }
 
