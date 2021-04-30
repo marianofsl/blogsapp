@@ -6,7 +6,7 @@ const PostCreate: FC = () => {
 
     const onSubmit = async (e: FormEvent)  => {
         e.preventDefault();
-        await axios.post('http://localhost:4000/posts', {
+        await axios.post('http://posts.com/posts/create', {
             title: title
         });
         setTitle('');
